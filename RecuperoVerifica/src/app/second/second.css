@@ -1,10 +1,10 @@
 .box-arancione {
-  background-color: #eda87c; /* Arancione chiaro */
-  border: 2px solid #d88656; /* Bordo un po' più scuro */
+  background-color: #eda87c;
+  border: 2px solid #d88656;
   padding: 20px;
   margin-top: 10px;
 }
 
-span {
-  color: #3b82f6; /* Colora la parola 'secondo' di blu */
+.testo-secondo {
+  color: #3b82f6;
 }

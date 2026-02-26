@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// Importiamo il quarto (nome esportato: FourthComponent)
 import { FourthComponent } from '../fourth/fourth';
 
 @Component({
   selector: 'app-third',
   standalone: true,
-  imports: [CommonModule, FourthComponent], // <-- Aggiunto qui
+  imports: [CommonModule, FourthComponent],
   templateUrl: './third.html',
   styleUrl: './third.css'
 })

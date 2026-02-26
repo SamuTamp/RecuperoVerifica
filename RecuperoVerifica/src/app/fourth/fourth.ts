@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-fourth',
   standalone: true,
-  imports: [CommonModule], // Nessun componente da importare, è l'ultimo!
+  imports: [CommonModule],
   templateUrl: './fourth.html',
   styleUrl: './fourth.css'
 })
