@@ -1,0 +1,15 @@
+.sfondo-rosso {
+  background-color: #e30909;
+  padding: 30px;
+  width: 400px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testo-rosso { 
+  color: red;
+  font-weight: bold;
+}
+

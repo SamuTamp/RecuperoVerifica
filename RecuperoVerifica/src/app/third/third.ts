@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+// Importiamo il quarto (nome esportato: FourthComponent)
+import { FourthComponent } from '../fourth/fourth';
 
 @Component({
   selector: 'app-third',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, FourthComponent], // <-- Aggiunto qui
   templateUrl: './third.html',
-  styleUrl: './third.css',
+  styleUrl: './third.css'
 })
-export class Third {}
+export class ThirdComponent {
+  tuo_cognome = 'terzo';
+}
