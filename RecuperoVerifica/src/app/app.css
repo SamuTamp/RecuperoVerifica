@@ -1,15 +1,10 @@
-.sfondo-rosso {
-  background-color: #e30909;
+.main-container {
+  background-color: #eae6e8; /* Grigio chiaro come in figura */
   padding: 30px;
-  width: 400px;
-  min-height: 450px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
 }
 
-.testo-rosso { 
-  color: red;
-  font-weight: bold;
+span {
+  color: red; /* Colora la parola 'app' */
 }
-

@@ -1,4 +1,3 @@
-.testo-verde{
-  color: #417505;
-  font-weight: bold;
+span {
+  color: #65a30d; /* Colora la parola 'terzo' di verde */
 }

@@ -1,4 +1,10 @@
-.testo-azzurro{
-  color: #4a90e2;
-  font-weight: bold;
+.box-arancione {
+  background-color: #eda87c; /* Arancione chiaro */
+  border: 2px solid #d88656; /* Bordo un po' più scuro */
+  padding: 20px;
+  margin-top: 10px;
+}
+
+span {
+  color: #3b82f6; /* Colora la parola 'secondo' di blu */
 }
